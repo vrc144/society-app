@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0B3C49</color>
+    <color name="colorPrimaryDark">#4db6ac</color>
+    <color name="colorAccent">#FFC857</color>
+    <color name="colorCardBG">#fafafa</color>
+    <color name="teal">#2CA58D</color>
+    <color name="amber">#FAC99E</color>
+    <color name="grey">#8DA9C4</color>
+    <color name="blue">#00BCD4</color>
+    <color name="lightgrey">#eceff1</color>
+    <color name="danger">#FF5252</color>
+    <color name="lightDanger">#FFCDD2</color>
+    <color name="success">#388E3C</color>
+    <color name="lightSuccess">#C8E6C9</color>
+    <color name="ajib">#A0D2DB</color>
+
+    <color name="black_overlay">#66000000</color>
+</resources>

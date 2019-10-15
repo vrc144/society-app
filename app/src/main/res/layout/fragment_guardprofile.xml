@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/profileCardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
+        app:cardBackgroundColor="@color/colorCardBG">
+
+    <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/profilePictureGuard"
+                android:src="@drawable/profile_picture"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/addProfilePictureGuard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add Profile Photo"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/rounded_edittext"/>
+                />
+
+            <TextView
+                android:id="@+id/guardUserId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="UserId"
+                android:textAlignment="center"
+                android:textDirection="firstStrong"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_edittext"/>
+
+            <TextView
+                android:id="@+id/guardName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textAlignment="center"
+                android:textDirection="firstStrong"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_edittext"/>
+
+            <TextView
+                android:id="@+id/guardContact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contact Number"
+                android:textAlignment="center"
+                android:textDirection="firstStrong"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_edittext"/>
+
+            <TextView
+                android:id="@+id/guardAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Address"
+                android:textAlignment="center"
+                android:textDirection="firstStrong"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_edittext"/>
+
+            <TextView
+                android:id="@+id/guardGate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gate Number"
+                android:textAlignment="center"
+                android:textDirection="firstStrong"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_edittext"/>
+
+            <TextView
+                android:id="@+id/guardShift"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Shift"
+                android:textAlignment="center"
+                android:textDirection="firstStrong"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/rounded_edittext"/>
+
+        </LinearLayout>
+
+</ScrollView>
+
+
+    </com.google.android.material.card.MaterialCardView>
+</LinearLayout>

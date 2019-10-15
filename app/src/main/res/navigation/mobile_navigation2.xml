@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation2"
+    app:startDestination="@+id/nav_home2">
+
+    <fragment
+        android:id="@+id/nav_home2"
+        android:name="com.example.societyapp.ui2.home2.HomeFragment2"
+        android:label="Home"
+        tools:layout="@layout/fragment_home2" />
+    <fragment
+        android:id="@+id/nav_profile2"
+        android:name="com.example.societyapp.ui2.profile2.GuardProfileFragment"
+        android:label="Guard"
+        tools:layout="@layout/fragment_guardprofile" />
+    <fragment
+        android:id="@+id/nav_add_visitor"
+        android:name="com.example.societyapp.ui2.addVisitor.AddVisitorFragment"
+        android:label="Add Visitor"
+        tools:layout="@layout/fragment_add_visitor" />
+
+</navigation>

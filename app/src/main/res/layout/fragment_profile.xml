@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+<!--    <com.google.android.material.chip.Chip-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        android:text="My Profile"-->
+<!--        android:textAlignment="center"-->
+<!--        android:textSize="18sp"-->
+<!--        android:textStyle="bold"-->
+<!--        app:chipBackgroundColor="@color/grey"-->
+<!--        app:chipEndPadding="12dp" />-->
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/profileCardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
+        app:cardBackgroundColor="@color/colorCardBG">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/profilePicture"/>
+
+                <TextView
+                    android:id="@+id/profileUserId"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="UserId"
+                    android:textAlignment="center"
+                    android:textDirection="firstStrong"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="30dp"
+                    android:background="@color/lightgrey"/>
+
+                <TextView
+                    android:id="@+id/profileUserName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="userName"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:background="@color/lightgrey"/>
+                <TextView
+                    android:id="@+id/profileContactNo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Contact Number"
+                    android:textAlignment="center"
+                    android:textDirection="firstStrong"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:background="@color/lightgrey" />
+
+                <TextView
+                    android:id="@+id/profileEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Email ID"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:background="@color/lightgrey" />
+
+                <TextView
+                    android:id="@+id/profileBuilding"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Building"
+                    android:textAlignment="center"
+                    android:textDirection="firstStrong"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:background="@color/lightgrey"/>
+                <TextView
+                    android:id="@+id/profileFloor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Floor"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:background="@color/lightgrey"/>
+                <TextView
+                    android:id="@+id/profileFlat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Flat"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:background="@color/lightgrey" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/changeProfileButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Change Profile"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@color/lightgrey"
+                />
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>
